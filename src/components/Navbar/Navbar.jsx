@@ -12,17 +12,17 @@ const Navbar = () => {
         <img className='' src={logo} alt="A+ studio" />
         <div>
         <ul className=' hidden md:flex text-[#000000] sm:text-sm lg:text-base'>
-          <li className=' ml-10 sm:ml-7 hover:text-[#2639ED]'><a href="#">Home</a></li>
-          <li className=' ml-10 sm:ml-7 hover:text-[#2639ED]'><a href="#">What We Do</a></li>
-          <li className=' ml-10 sm:ml-7 hover:text-[#2639ED]'><a href="#">Service</a></li>
-          <li className=' ml-10 sm:ml-7 hover:text-[#2639ED]'><a href="#">Project</a></li>
-          <li className=' ml-10 sm:ml-7 hover:text-[#2639ED]'><a href="#">Blog</a></li>
-          <li className=' ml-10 sm:ml-7 hover:text-[#2639ED]'><a href="#">Contact</a></li>
+          <li className=' sm:ml-7 lg:ml-10 hover:text-[#2639ED]'><a href="#">Home</a></li>
+          <li className=' sm:ml-7 lg:ml-10 hover:text-[#2639ED]'><a href="#">What We Do</a></li>
+          <li className=' sm:ml-7 lg:ml-10 hover:text-[#2639ED]'><a href="#">Service</a></li>
+          <li className=' sm:ml-7 lg:ml-10 hover:text-[#2639ED]'><a href="#">Project</a></li>
+          <li className=' sm:ml-7 lg:ml-10 hover:text-[#2639ED]'><a href="#">Blog</a></li>
+          <li className=' sm:ml-7 lg:ml-10 hover:text-[#2639ED]'><a href="#">Contact</a></li>
           </ul>
 
           {/* Menu and cross bar will appear here */}
           <div>
-            <img className='flex md:hidden object-contain h-7' src={toggle? close : menu} alt=""  onClick={() => setToggle((prev) => !prev)} />
+            <img className='flex md:hidden object-contain h-7' src={toggle? close : menu} alt="menu"  onClick={() => setToggle((prev) => !prev)} />
           </div>
           <div className={`${toggle? 'visible': 'hidden'} md:hidden bg-[#2639ED] justify-center py-6 rounded-l-xl right-0 top-16 absolute min-w-[140px]`} >
             <ul className=' text-white my-2 '>
