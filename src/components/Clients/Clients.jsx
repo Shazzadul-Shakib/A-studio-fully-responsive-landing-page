@@ -9,9 +9,8 @@ const Clients = () => {
     <div className=' mx-[30px] my-8 border rounded-xl border-gray-600 p-6 sm:gap-2 md:mx-[50px] md:grid md:grid-cols-3'>
       {/* Text content */}
       <div className=' text-center'>
-        <h3 className=' font-semibold text-black sm:font-semibold md:text-xl  lg:text-4xl'>Our CLients</h3>
-        <p className='text-[#565656] text-xs py-3 md:text-sm '>Several selected clients,
- who already believe in our service.</p>
+        <h3 className=' font-semibold text-black sm:font-semibold md:text-xl  lg:text-4xl'>Our Clients</h3>
+        <p className='text-[#565656] text-xs py-3 md:text-sm '>Several selected clients, who already believe in our service.</p>
       </div>
       {/* Logo of Clients */}
       <div className=' md:flex justify-center items-center sm:gap-2 md:col-span-2 lg:gap-3'>

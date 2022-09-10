@@ -22,9 +22,9 @@ const Navbar = () => {
 
           {/* Menu and cross bar will appear here */}
           <div>
-            <img className='flex md:hidden object-contain h-7' src={toggle? close : menu} alt="menu"  onClick={() => setToggle((prev) => !prev)} />
+            <img className='flex md:hidden object-contain h-7 fixed right-6 top-8' src={toggle? close : menu} alt="menu"  onClick={() => setToggle((prev) => !prev)} />
           </div>
-          <div className={`${toggle? 'visible': 'hidden'} md:hidden bg-[#2639ED] justify-center py-6 rounded-l-xl right-0 top-16 absolute min-w-[140px]`} >
+          <div className={`${toggle? 'visible': 'hidden'} md:hidden bg-[#2639ED] justify-center py-6 rounded-l-xl right-0 top-16  min-w-[140px] fixed mt-2`} >
             <ul className=' text-white my-2 '>
               <li className=' ml-10 my-4 hover:text-slate-400'><a href="#">Home</a></li>
               <li className=' ml-10 my-4 hover:text-slate-400'><a href="#">What We Do</a></li>
