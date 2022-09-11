@@ -16,7 +16,7 @@ const Services = () => {
           <p className=' text-sm text-[#565656]'>We build readymade websites, mobile<br/> applications, and elaborate online business<br/> services.</p>
         </div>
         {/* box content div 2 */}
-        <div className=' flex gap-2 sm:justify-center md:gap-5 lg:justify-start'>
+        <div className=' flex gap-2 justify-center md:gap-5 lg:justify-start'>
           {/* first two boxes */}
           <div>
             <div className=' bg-white drop-shadow-xl h-[300px] w-[200px] rounded-xl pt-16 pb-16 pr-8 pl-8 flex flex-col justify-center items-center stroke-[#F2F2F2]  mb-6'>
