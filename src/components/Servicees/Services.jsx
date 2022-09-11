@@ -3,11 +3,13 @@ import search from '../../assets/servicees/box-search 1.png';
 import code from '../../assets/servicees/code-1 1.png';
 import wallet from '../../assets/servicees/empty-wallet 1.png';
 import chart from '../../assets/servicees/chart-square 1.png';
+import background from '../../assets/servicees/Group 75.png';
 const Services = () => {
   return (
-    <div className=' my-6'>
+    <div className=' my-8 lg:my-10 py-6  '
+         style={{ backgroundImage: `url( '${background} ')`}}>
       {/* Main section of services */}
-      <section className=' grid grid-cols-1 md:grid-cols-2 items-center'>
+      <section className='h-full w-full grid grid-cols-1 md:grid-cols-2 items-center'>
         {/* text content div 1 */}
         <div className='  text-center my-5'>
           <h3 className='  text-[34px] font-semibold mb-2'>How can we help<br/> your Business ?</h3>
