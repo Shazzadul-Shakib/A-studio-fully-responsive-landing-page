@@ -5,6 +5,7 @@ import Feedback from './components/Feedback/Feedback';
 import Hero from './components/Hero/Hero';
 import Navbar from './components/Navbar/Navbar';
 import Services from './components/Servicees/Services';
+import Subscription from './components/Subscription/Subscription';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Services />
       <Feature />
       <Feedback />
+      <Subscription />
     </div>
   );
 }
